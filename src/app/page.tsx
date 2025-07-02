@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
-      <h1 className="text-4xl font-bold mb-8">Welcome to E-Commerce GLA</h1>
+      <h1 className="text-4xl font-bold mb-8">Welcome to E-Commerce GLA2</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
         <div className="p-6 bg-white dark:bg-gray-800 shadow-md rounded-lg border">
