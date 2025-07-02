@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     const verifycode = Math.floor(100000 + Math.random() * 900000).toString();
 
     if (isVerifiedUserAlreadyExists) {
-      if (isVerifiedUserAlreadyExists.isverified) {
+      if (isVerifiedUserAlreadyExists.isverified) { // if already exsist change the password
         return Response.json({
           message: "User already Exists With this email",
           success: false,
